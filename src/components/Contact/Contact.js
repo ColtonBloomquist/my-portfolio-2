@@ -53,6 +53,7 @@ function ContactForm() {
             onBlur={handleFormChange}
             name="name"
             placeholder="Name"
+            style={{ border: "1px solid #8c54ff" }}
           />
         </div>
         <div>
@@ -72,6 +73,7 @@ function ContactForm() {
             onBlur={handleFormChange}
             name="email"
             placeholder="Email"
+            style={{ border: "1px solid #8c54ff" }}
           />
         </div>
         <div>
@@ -91,6 +93,7 @@ function ContactForm() {
             defaultValue={message}
             onBlur={handleFormChange}
             placeholder="Message"
+            style={{ border: "1px solid #8c54ff" }}
           />
         </div>
         {errorMessage && (
