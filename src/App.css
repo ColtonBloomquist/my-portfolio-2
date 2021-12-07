@@ -24,6 +24,10 @@
   color: white;
 }
 
+.resume-title {
+  padding: 100px;
+}
+
 .App-link {
   color: #61dafb;
 }
