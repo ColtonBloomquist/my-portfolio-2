@@ -7,7 +7,9 @@ function Resume() {
         <h3 className="resume-title">
           Please click{" "}
           <span>
-            <a href="MY RESUME LINK">here</a>
+            <a href="/Resume/resume.docx" download>
+              here
+            </a>
           </span>{" "}
           to download my resume.
         </h3>

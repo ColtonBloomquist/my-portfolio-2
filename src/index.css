@@ -51,6 +51,23 @@ body {
   font-family: "Poiret One", cursive;
 }
 
+.app-content {
+  margin: 50px;
+  background-color: rgb(20, 20, 20);
+}
+
+.footer-icon {
+  width: 55px;
+  height: 55px;
+  margin: 0px 7px 0px 0px;
+  display: inline-block;
+  padding: 0px 7px 0px 0px;
+}
+
+.App {
+  background-color: black;
+}
+
 h1,
 h2,
 h3,
@@ -104,6 +121,7 @@ a:hover {
 
 header {
   background: var(--dark);
+  border-radius: 4px;
 }
 
 header a {
@@ -184,6 +202,7 @@ input:focus {
 .navbar-title {
   font-weight: bold;
   color: #8c54ff;
+  padding: 0px 0px 0px 10px;
 }
 
 .page-title {

@@ -5,6 +5,7 @@ import Contact from "./components/Contact/Contact";
 import Resume from "./components/Resume/Resume";
 import Portfolio from "./components/Porfolio/Portfolio";
 import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -21,9 +22,12 @@ function App() {
   }
   return (
     <div className="App">
-      <Nav pageSelect={setSelectedPage}></Nav>
+      <div className="app-content">
+        <Nav pageSelect={setSelectedPage} selectedPage={selectedPage}></Nav>
 
-      {getPage()}
+        {getPage()}
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

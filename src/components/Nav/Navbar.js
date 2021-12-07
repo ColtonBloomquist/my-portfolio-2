@@ -6,7 +6,7 @@ function Navbar(props) {
     console.log(page);
   }
   return (
-    <div>
+    <div className="navbar-main">
       <header
         className="flex-row"
         onClick={() => {
@@ -18,6 +18,9 @@ function Navbar(props) {
       <nav>
         <ul className="flex-row">
           <li
+            style={{
+              color: props.selectedPage === "about" ? "#8c54ff" : "white",
+            }}
             className="mx-2"
             onClick={() => {
               headerClickHandler("about");
@@ -26,6 +29,9 @@ function Navbar(props) {
             About Me
           </li>
           <li
+            style={{
+              color: props.selectedPage === "portfolio" ? "#8c54ff" : "white",
+            }}
             className="mx-2"
             onClick={() => {
               headerClickHandler("portfolio");
@@ -34,6 +40,9 @@ function Navbar(props) {
             Portfolio
           </li>
           <li
+            style={{
+              color: props.selectedPage === "resume" ? "#8c54ff" : "white",
+            }}
             className="mx-2"
             onClick={() => {
               headerClickHandler("resume");
@@ -42,6 +51,9 @@ function Navbar(props) {
             Resume
           </li>
           <li
+            style={{
+              color: props.selectedPage === "contact" ? "#8c54ff" : "white",
+            }}
             className="mx-2"
             onClick={() => {
               headerClickHandler("contact");
