@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <section>
-      <h2 className=" about-title">
+      <h2 className=" about-title page-title">
         <span>Who am I?</span>
       </h2>
       <div className="about-info flex-row">
@@ -12,15 +12,14 @@ function About() {
             require("../../assets/project-pictures/picture-of-me.JPG").default
           }
           alt="Picture of Colton Bloomquist"
-          className="img-thumbnail mx-1"
+          className="mx-1 picture-of-me"
         ></img>
         <p className="self-description">
           I am a full-stack web developer and am currently enrolled in the
           University of Utah's "Full-Stack Web Developer" program. I am
-          proficient in HTML, CSS, JavaScript, WebAPIs, SQL, NoSQL, express and
-          most recently, React. I am excited to continue my education in the
-          forever growing field of web developement. Please reach out to me on
-          the "Contact Me" section with questions, job opportunities etc.
+          proficient in HTML, CSS, JavaScript, WebAPIs, SQL, NoSQL, Express,
+          MONGODB, PWAs and most recently, React. I am excited to continue my
+          education in the ever growing field of web developement.
         </p>
       </div>
     </section>

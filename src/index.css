@@ -53,19 +53,19 @@ body {
 
 .app-content {
   margin: 50px;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(26, 26, 31);
 }
 
 .footer-icon {
   width: 55px;
   height: 55px;
-  margin: 0px 7px 0px 0px;
+  margin: 0px 10px 0px 0px;
   display: inline-block;
-  padding: 0px 7px 0px 0px;
+  padding: 0px 10px 0px 0px;
 }
 
 .App {
-  background-color: black;
+  background-color: rgb(35, 18, 51);
 }
 
 h1,
@@ -120,12 +120,8 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: rgb(12, 12, 14);
   border-radius: 4px;
-}
-
-header a {
-  color: var(--light);
 }
 
 button {
@@ -137,7 +133,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 button:hover {
@@ -183,17 +179,13 @@ input {
   transition: box-shadow 0.2s;
 }
 
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-}
-
 .contact-page {
   padding: 50px;
 }
 
 .self-description {
   width: 40%;
+  animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
 .border-bottom {
@@ -208,11 +200,41 @@ input:focus {
 .page-title {
   color: #8c54ff;
   padding-top: 100px;
+  text-shadow: 3px 3px 1px rgb(5, 5, 5);
 }
 
 .resume-list {
   text-align: left;
   padding-left: 100px;
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.picture-of-me {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+  box-shadow: 10px 10px 5px black;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .resume-items {
@@ -310,6 +332,25 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+  opacity: 50%;
+  box-shadow: 10px 10px 5px black;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.img-thumbnail:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+  box-shadow: 3px 3px 2px var(--primary);
 }
 
 button {
