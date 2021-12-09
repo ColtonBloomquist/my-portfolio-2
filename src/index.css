@@ -332,18 +332,16 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
-  opacity: 50%;
+  opacity: 0.5;
   box-shadow: 10px 10px 5px black;
   animation: fadeInAnimation ease 5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
   }
-  50% {
-    opacity: 0.5;
+  65% {
+    opacity: 0.65;
   }
 }
 
