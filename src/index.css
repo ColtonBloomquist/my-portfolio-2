@@ -51,10 +51,10 @@ body {
   font-family: "Poiret One", cursive;
 }
 
-.portfolio-card-grid {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min-content, 1fr)); */
-}
+/* .portfolio-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 1fr));
+} */
 .app-content {
   margin: 50px;
   background-color: rgb(26, 26, 31);
@@ -190,8 +190,10 @@ input {
 }
 
 .self-description {
-  width: 40%;
+  width: 60%;
   animation: 1s ease-out 0s 1 slideInFromRight;
+  display: inline;
+  min-width: 100px;
 }
 
 .border-bottom {
@@ -244,6 +246,7 @@ input {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+  display: inline;
 
   box-shadow: 10px 10px 5px black;
   animation: 1s ease-out 0s 1 slideInFromLeft;
