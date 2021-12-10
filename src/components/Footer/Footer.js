@@ -2,7 +2,7 @@ import React from "react";
 import FooterIcon from "./FooterIcon";
 function Footer() {
   return (
-    <ul class="logos">
+    <ul className="logos">
       <FooterIcon
         iconImage={
           require("../../assets/project-pictures/twitter-logo.jpg").default

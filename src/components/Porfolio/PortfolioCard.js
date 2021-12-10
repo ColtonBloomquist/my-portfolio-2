@@ -8,16 +8,34 @@ function PortfolioCard(props) {
         // border: isShown ? "1px solid blue" : "1px solid red",
         width: "33%",
         paddingTop: "100px",
+        minWidth: "300px",
       }}
       onMouseEnter={() => setIsShown(true)}
       onMouseLeave={() => setIsShown(false)}
       onClick={() => window.open(props.url)}
     >
-      <img
-        src={props.assetpath}
-        alt="portfolio card"
-        className="img-thumbnail mx-1"
-      ></img>
+      <div className="card-grid">
+        <h3 className="project-title">{props.title}</h3>
+        <img
+          src={props.assetpath}
+          alt="portfolio card"
+          className="img-thumbnail"
+        ></img>
+        <div className="card-btn-container">
+          <button
+            style={{
+              margin: "5px",
+            }}
+            className="btn"
+            onClick={() => window.open(props.githuburl)}
+          >
+            GitHub
+          </button>
+          <button className="btn" onClick={() => window.open(props.url)}>
+            Webpage
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

@@ -93,7 +93,10 @@ function ContactForm() {
             defaultValue={message}
             onBlur={handleFormChange}
             placeholder="Message"
-            style={{ border: "1px solid #8c54ff" }}
+            style={{
+              border: "1px solid #8c54ff",
+              boxShadow: "2px 2px 1px var(--primary)",
+            }}
           />
         </div>
         {errorMessage && (
