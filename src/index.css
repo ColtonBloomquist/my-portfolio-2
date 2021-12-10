@@ -1,4 +1,4 @@
-/* body {
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -377,7 +377,7 @@ textarea {
   opacity: 1 !important;
   transition: opacity 1s;
   /* animation: hoverOverAnimation ease 1s; */
-/* box-shadow: 3px 3px 2px var(--primary);
+  box-shadow: 3px 3px 2px var(--primary);
 }
 
 button {
@@ -403,4 +403,4 @@ a {
 
 .navActive {
   color: var(--secondary);
-} */
+}
