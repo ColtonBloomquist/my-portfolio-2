@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../assets/Resume/resume.docx";
 
 function Resume() {
   return (
@@ -7,7 +8,7 @@ function Resume() {
         <h3 className="resume-title">
           Please click{" "}
           <span>
-            <a href="/Resume/resume.docx" download>
+            <a href={resume} download>
               here
             </a>
           </span>{" "}
