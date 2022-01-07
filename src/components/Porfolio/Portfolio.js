@@ -8,6 +8,14 @@ function Portfolio() {
       <h1 className="page-title">My Projects</h1>
       <section className="flex-row">
         <PortfolioCard
+          title="GameTradez"
+          assetpath={
+            require(`../../assets/project-pictures/gametradez.png`).default
+          }
+          url="https://protected-anchorage-01372.herokuapp.com/"
+          githuburl="https://github.com/GarciaE89/gametradez"
+        />
+        <PortfolioCard
           title="Budget Tracker"
           assetpath={
             require(`../../assets/project-pictures/budget-tracker.png`).default
