@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/my-portfolio-2/static/css/main.bab96940.chunk.css",
-    "main.js": "/my-portfolio-2/static/js/main.460b3b58.chunk.js",
-    "main.js.map": "/my-portfolio-2/static/js/main.460b3b58.chunk.js.map",
-    "runtime-main.js": "/my-portfolio-2/static/js/runtime-main.ce5e2d4d.js",
-    "runtime-main.js.map": "/my-portfolio-2/static/js/runtime-main.ce5e2d4d.js.map",
+    "main.js": "/my-portfolio-2/static/js/main.809f2460.chunk.js",
+    "main.js.map": "/my-portfolio-2/static/js/main.809f2460.chunk.js.map",
+    "runtime-main.js": "/my-portfolio-2/static/js/runtime-main.e673ca9c.js",
+    "runtime-main.js.map": "/my-portfolio-2/static/js/runtime-main.e673ca9c.js.map",
     "static/js/2.4148e874.chunk.js": "/my-portfolio-2/static/js/2.4148e874.chunk.js",
     "static/js/2.4148e874.chunk.js.map": "/my-portfolio-2/static/js/2.4148e874.chunk.js.map",
-    "static/js/3.76f84a2b.chunk.js": "/my-portfolio-2/static/js/3.76f84a2b.chunk.js",
-    "static/js/3.76f84a2b.chunk.js.map": "/my-portfolio-2/static/js/3.76f84a2b.chunk.js.map",
+    "static/js/3.e304d782.chunk.js": "/my-portfolio-2/static/js/3.e304d782.chunk.js",
+    "static/js/3.e304d782.chunk.js.map": "/my-portfolio-2/static/js/3.e304d782.chunk.js.map",
     "index.html": "/my-portfolio-2/index.html",
     "static/css/main.bab96940.chunk.css.map": "/my-portfolio-2/static/css/main.bab96940.chunk.css.map",
     "static/js/2.4148e874.chunk.js.LICENSE.txt": "/my-portfolio-2/static/js/2.4148e874.chunk.js.LICENSE.txt",
     "static/media/budget-tracker.png": "/my-portfolio-2/static/media/budget-tracker.131b0c7d.png",
+    "static/media/gametradez.png": "/my-portfolio-2/static/media/gametradez.fefc0b26.png",
     "static/media/horiseon.png": "/my-portfolio-2/static/media/horiseon.50a07746.png",
     "static/media/linkedin-logo.jpeg": "/my-portfolio-2/static/media/linkedin-logo.41c732d2.jpeg",
     "static/media/password-generator.png": "/my-portfolio-2/static/media/password-generator.c8952f2e.png",
@@ -24,9 +25,9 @@
     "static/media/twitter-logo.jpg": "/my-portfolio-2/static/media/twitter-logo.665e1bb1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce5e2d4d.js",
+    "static/js/runtime-main.e673ca9c.js",
     "static/js/2.4148e874.chunk.js",
     "static/css/main.bab96940.chunk.css",
-    "static/js/main.460b3b58.chunk.js"
+    "static/js/main.809f2460.chunk.js"
   ]
 }
